@@ -1,3 +1,6 @@
-Cypress e2e tests for the sudoku app developed by Raravi Amith Raravi. Source of app is here https://github.com/raravi/sudoku
+E2E and React component testing using Cypress v12.
+ 
+Original Sudoku game developed by Raravi Amith Raravi and copied from https://github.com/raravi/sudoku 
+You can play it at https://sudoku-raravi.vercel.app/
 
 To run tests from cmd: npm run e2e
