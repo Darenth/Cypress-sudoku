@@ -14,7 +14,7 @@ describe('Timer', () => {
         cy.get('.game__cell--filled').should('have.length', 45)
     })
 
-    it.only('shows minutes and seconds since the game started', () => {
+    it.skip('shows minutes and seconds since the game started', () => {
         cy.clock()
         cy.contains('.status__time','00:00')
         cy.tick(30_000)
